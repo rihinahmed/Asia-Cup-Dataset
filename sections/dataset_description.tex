@@ -1,0 +1,18 @@
+\section{Dataset Description}
+\label{sec:description}
+The dataset is one workbook with seven sheets. The \emph{Master Dataset} has one row per match, so 32 rows and 58 columns. The \emph{2025 Scorecard Detail} sheet has 19 rows and 53 columns. For each side it lists the playing eleven, the coach, the batting and bowling figures, the fall of wickets, the extras split into byes, leg byes, wides and no balls, and the fours and sixes. We added boundary runs and run rate to this sheet. Team Records, Tournament Summary, Venue Analysis and Player of the Match are summaries that recalculate from the master table, and a README sheet lists notes and known gaps.
+
+Table~\ref{tab:fields} groups the 58 fields. \emph{Team~1 always means the side that batted first.} Dates are real dates, lengths are in metres and wind speed is in kilometres per hour. Table~\ref{tab:summary} gives a picture of the two tournaments. Of the 32 matches, 20 were played at Dubai, 8 at Abu Dhabi and 4 at Sharjah, and only Dubai hosted matches in both years.
+
+\input{tables/summary}
+
+Figure~\ref{fig:completeness} shows how complete each group of fields is. Identity, teams, scores, results and pitch notes are complete for both years. Weather is complete for 2022 but only about 2842\% filled for 2025. The Abu Dhabi boundary lengths and the 2025 reserve umpire are missing. We leave these gaps visible because an empty cell is easier to handle than a number that was made up.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{fig_completeness.png}
+\caption{Share of cells filled in, by group of fields. Numbers beside the orange bars are for 2025. Every 2022 group is complete.}
+\label{fig:completeness}
+\end{figure}
+
+\input{tables/fields}

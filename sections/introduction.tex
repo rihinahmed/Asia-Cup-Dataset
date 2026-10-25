@@ -1,0 +1,10 @@
+\section{Introduction}
+Cricket matches produce a lot of numbers. Each ball is recorded, and every match ends with a full account of who batted, who bowled and who won. Fans use these records to argue about their teams, coaches use them to decide whether to bat or bowl after winning the toss, and researchers use them to study how the game works.
+
+These records are not always easy to use. Web scorecards are made for reading, so the same facts appear on several pages, often spelled in different ways. Notes on the pitch and the weather usually sit in news previews and not in a table beside the scores. Raza and Ali recently released a match level table for the 2025 Asia Cup \cite{razaarxiv,razadata}, and we build on it in this paper. We did not find one table that covers both the 2022 and the 2025 tournaments and also records notes on the pitch and the weather.
+
+AsiaCupT20 joins the two tournaments in one table with the same fields for every match. It adds pitch and weather notes with their sources, calculated fields, and a detailed scorecard sheet for 2025. We fixed errors found in the source records and tested the result with 13 automatic checks. We also give a short first analysis to show how the data can be used. The Asia Cup matters to readers in Bangladesh and across South Asia, and we hope a clean record helps students and young researchers ask real questions without first spending weeks copying numbers.
+
+Section~\ref{sec:related} reviews related work and Section~\ref{sec:collection} explains how the data were built. Section~\ref{sec:description} describes the contents and Section~\ref{sec:validation} reports the checks. Section~\ref{sec:analysis} shows example uses, and Section~\ref{sec:limits} gives limits and usage notes. Table~\ref{tab:glossary} explains the main terms in plain words.
+
+\input{tables/glossary}

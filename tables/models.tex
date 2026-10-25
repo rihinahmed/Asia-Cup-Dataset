@@ -1,0 +1,24 @@
+\begin{table}[!t]
+\caption{How often each method picked the winner (31 matches, each predicted without having been seen). Brier measures the error of the stated probabilities. Lower is better, and 0.25 is a coin flip.}
+\label{tab:models}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}p{0.43\columnwidth}ccc@{}}
+\toprule
+\textbf{Method} & \textbf{Right (\%)} & \textbf{Range} & \textbf{Brier} \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Right after the toss}} \\
+Always pick the chasing side & 61 & 45 to 77 & 0.24 \\
+Logistic regression & 71 & 55 to 84 & 0.18 \\
+Random forest & 71 & 55 to 84 & 0.19 \\
+Gradient boosting & 68 & 52 to 84 & 0.21 \\
+Pick the higher rated team & 74 & 58 to 87 & 0.20 \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{At the break between innings}} \\
+Logistic regression & 68 & 52 to 84 & 0.19 \\
+Random forest & 74 & 58 to 87 & 0.20 \\
+Gradient boosting & 71 & 55 to 87 & 0.24 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,692 @@
+{
+ "n_matches": 32,
+ "n_super_over": 1,
+ "desc": [
+  {
+   "Group": "All matches",
+   "Matches": 32,
+   "Decided": 31,
+   "ChaseWins": 19,
+   "ChaseWinPct": 61.29,
+   "CI95_lo": 43.82,
+   "CI95_hi": 76.27,
+   "Mean1stInn": 156.97,
+   "Mean2ndInn": 137.47,
+   "MeanPP1": 46.97,
+   "MeanTotal": 294.44,
+   "TossWinnerWon": 19
+  },
+  {
+   "Group": "Asia Cup 2022",
+   "Matches": 13,
+   "Decided": 13,
+   "ChaseWins": 9,
+   "ChaseWinPct": 69.23,
+   "CI95_lo": 42.37,
+   "CI95_hi": 87.32,
+   "Mean1stInn": 162.15,
+   "Mean2ndInn": 139.0,
+   "MeanPP1": 45.92,
+   "MeanTotal": 301.15,
+   "TossWinnerWon": 7
+  },
+  {
+   "Group": "Asia Cup 2025",
+   "Matches": 19,
+   "Decided": 18,
+   "ChaseWins": 10,
+   "ChaseWinPct": 55.56,
+   "CI95_lo": 33.72,
+   "CI95_hi": 75.44,
+   "Mean1stInn": 153.42,
+   "Mean2ndInn": 136.42,
+   "MeanPP1": 47.68,
+   "MeanTotal": 289.84,
+   "TossWinnerWon": 12
+  },
+  {
+   "Group": "Dubai",
+   "Matches": 20,
+   "Decided": 19,
+   "ChaseWins": 12,
+   "ChaseWinPct": 63.16,
+   "CI95_lo": 41.04,
+   "CI95_hi": 80.85,
+   "Mean1stInn": 155.65,
+   "Mean2ndInn": 139.5,
+   "MeanPP1": 48.3,
+   "MeanTotal": 295.15,
+   "TossWinnerWon": 11
+  },
+  {
+   "Group": "Abu Dhabi",
+   "Matches": 8,
+   "Decided": 8,
+   "ChaseWins": 4,
+   "ChaseWinPct": 50.0,
+   "CI95_lo": 21.52,
+   "CI95_hi": 78.48,
+   "Mean1stInn": 160.75,
+   "Mean2ndInn": 141.25,
+   "MeanPP1": 46.5,
+   "MeanTotal": 302.0,
+   "TossWinnerWon": 6
+  },
+  {
+   "Group": "Sharjah",
+   "Matches": 4,
+   "Decided": 4,
+   "ChaseWins": 3,
+   "ChaseWinPct": 75.0,
+   "CI95_lo": 30.06,
+   "CI95_hi": 95.44,
+   "Mean1stInn": 156.0,
+   "Mean2ndInn": 119.75,
+   "MeanPP1": 41.25,
+   "MeanTotal": 275.75,
+   "TossWinnerWon": 2
+  },
+  {
+   "Group": "Group Stage",
+   "Matches": 18,
+   "Decided": 18,
+   "ChaseWins": 10,
+   "ChaseWinPct": 55.56,
+   "CI95_lo": 33.72,
+   "CI95_hi": 75.44,
+   "Mean1stInn": 152.17,
+   "Mean2ndInn": 125.94,
+   "MeanPP1": 43.39,
+   "MeanTotal": 278.11,
+   "TossWinnerWon": 11
+  },
+  {
+   "Group": "Super Four",
+   "Matches": 12,
+   "Decided": 11,
+   "ChaseWins": 8,
+   "ChaseWinPct": 72.73,
+   "CI95_lo": 43.43,
+   "CI95_hi": 90.25,
+   "Mean1stInn": 164.0,
+   "Mean2ndInn": 152.92,
+   "MeanPP1": 52.92,
+   "MeanTotal": 316.92,
+   "TossWinnerWon": 7
+  },
+  {
+   "Group": "Final",
+   "Matches": 2,
+   "Decided": 2,
+   "ChaseWins": 1,
+   "ChaseWinPct": 50.0,
+   "CI95_lo": 9.45,
+   "CI95_hi": 90.55,
+   "Mean1stInn": 158.0,
+   "Mean2ndInn": 148.5,
+   "MeanPP1": 43.5,
+   "MeanTotal": 306.5,
+   "TossWinnerWon": 1
+  },
+  {
+   "Group": "Dubai 2022",
+   "Matches": 9,
+   "Decided": 9,
+   "ChaseWins": 6,
+   "ChaseWinPct": 66.67,
+   "CI95_lo": 35.42,
+   "CI95_hi": 87.94,
+   "Mean1stInn": 164.89,
+   "Mean2ndInn": 147.56,
+   "MeanPP1": 48.0,
+   "MeanTotal": 312.44,
+   "TossWinnerWon": 5
+  },
+  {
+   "Group": "Dubai 2025",
+   "Matches": 11,
+   "Decided": 10,
+   "ChaseWins": 6,
+   "ChaseWinPct": 60.0,
+   "CI95_lo": 31.27,
+   "CI95_hi": 83.18,
+   "Mean1stInn": 148.09,
+   "Mean2ndInn": 132.91,
+   "MeanPP1": 48.55,
+   "MeanTotal": 281.0,
+   "TossWinnerWon": 6
+  }
+ ],
+ "chase": {
+  "k": 19,
+  "n": 31,
+  "pct": 61.29032258064516,
+  "ci": [
+   43.823801141131966,
+   76.26712464872844
+  ],
+  "p_exact": 0.28104151505976915,
+  "post_mean": 0.6060606060606061,
+  "post_p_gt_half": 0.8923364251386374,
+  "post_ci": [
+   0.43692245509692657,
+   0.7630158994482569
+  ]
+ },
+ "fisher_series": {
+  "table": [
+   [
+    9,
+    4
+   ],
+   [
+    10,
+    8
+   ]
+  ],
+  "odds": 1.8,
+  "p": 0.48403457257546345
+ },
+ "fisher_dubai_vs_other": {
+  "table": [
+   [
+    12,
+    7
+   ],
+   [
+    7,
+    5
+   ]
+  ],
+  "odds": 1.2244897959183674,
+  "p": 1.0
+ },
+ "fisher_group_vs_later": {
+  "table": [
+   [
+    10,
+    8
+   ],
+   [
+    9,
+    4
+   ]
+  ],
+  "odds": 0.5555555555555556,
+  "p": 0.48403457257546345
+ },
+ "chase_2022": {
+  "k": 9,
+  "n": 13,
+  "p": 0.266845703125
+ },
+ "chase_2025": {
+  "k": 10,
+  "n": 18,
+  "p": 0.8145294189453125
+ },
+ "chase_Dubai": {
+  "k": 12,
+  "n": 19,
+  "p": 0.359283447265625
+ },
+ "toss": {
+  "k": 19,
+  "n": 32,
+  "pct": 59.375,
+  "ci": [
+   42.259726572988235,
+   74.4805975196862
+  ],
+  "p": 0.37708558747544885
+ },
+ "toss_field": {
+  "share": 75.0,
+  "won": 15,
+  "n": 24
+ },
+ "toss_bat": {
+  "won": 4,
+  "n": 8
+ },
+ "field_share_series": {
+  "Asia Cup 2022": 84.61538461538461,
+  "Asia Cup 2025": 68.42105263157895
+ },
+ "innings": {
+  "mean1": 156.96875,
+  "mean2": 137.46875,
+  "sd1": 31.56609489268816,
+  "sd2": 37.148337673918654,
+  "median1": 164.0,
+  "median2": 142.0,
+  "wilcoxon_p": 0.2544478320175665,
+  "mean_diff": 19.5,
+  "diff_ci": [
+   7.4046875000000005,
+   34.31328124999999
+  ]
+ },
+ "score_series": {
+  "mw_p": 0.3877920180119291,
+  "m22": 162.15384615384616,
+  "m25": 153.42105263157896
+ },
+ "score_venue": {
+  "dub": 155.65,
+  "oth": 159.16666666666666,
+  "mw_p": 0.9070045400348399,
+  "kruskal_p": 0.9758467306068562
+ },
+ "pp": {
+  "pearson": 0.4447438647686551,
+  "pearson_ci": [
+   0.2504029589379878,
+   0.6497930533020806
+  ],
+  "spearman": 0.4453420519018785,
+  "spearman_p": 0.010641817818078577,
+  "slope": 1.3139332609252343,
+  "intercept": 95.2549471509179,
+  "slope_se": 0.4831086636742362,
+  "r2": 0.19779710524935976,
+  "p": 0.010759763561501098
+ },
+ "pp_chaser": {
+  "winners_mean": 50.26315789473684,
+  "losers_mean": 35.083333333333336,
+  "mw_p": 0.007829710172498328
+ },
+ "run_diff": {
+  "chase_median_margin_runs": null
+ },
+ "elo_final": {
+  "India": 1562.9,
+  "Sri Lanka": 1527.1,
+  "Pakistan": 1503.2,
+  "Bangladesh": 1481.6,
+  "Afghanistan": 1476.3,
+  "United Arab Emirates": 1348.0,
+  "Oman": 1328.9,
+  "Hong Kong": 1322.0
+ },
+ "cv": [
+  {
+   "Setting": "Post-toss",
+   "Model": "Majority class",
+   "Accuracy": 0.613,
+   "Acc_lo": 0.452,
+   "Acc_hi": 0.774,
+   "AUC": null,
+   "Brier": 0.239,
+   "LogLoss": 0.672
+  },
+  {
+   "Setting": "Post-toss",
+   "Model": "Logistic (L2)",
+   "Accuracy": 0.71,
+   "Acc_lo": 0.548,
+   "Acc_hi": 0.839,
+   "AUC": 0.754,
+   "Brier": 0.183,
+   "LogLoss": 0.537
+  },
+  {
+   "Setting": "Post-toss",
+   "Model": "Random Forest",
+   "Accuracy": 0.71,
+   "Acc_lo": 0.548,
+   "Acc_hi": 0.84,
+   "AUC": 0.741,
+   "Brier": 0.19,
+   "LogLoss": 0.573
+  },
+  {
+   "Setting": "Post-toss",
+   "Model": "Gradient Boosting",
+   "Accuracy": 0.677,
+   "Acc_lo": 0.516,
+   "Acc_hi": 0.839,
+   "AUC": 0.711,
+   "Brier": 0.206,
+   "LogLoss": 0.63
+  },
+  {
+   "Setting": "Innings-break",
+   "Model": "Majority class",
+   "Accuracy": 0.613,
+   "Acc_lo": 0.452,
+   "Acc_hi": 0.774,
+   "AUC": null,
+   "Brier": 0.239,
+   "LogLoss": 0.672
+  },
+  {
+   "Setting": "Innings-break",
+   "Model": "Logistic (L2)",
+   "Accuracy": 0.677,
+   "Acc_lo": 0.516,
+   "Acc_hi": 0.839,
+   "AUC": 0.763,
+   "Brier": 0.188,
+   "LogLoss": 0.547
+  },
+  {
+   "Setting": "Innings-break",
+   "Model": "Random Forest",
+   "Accuracy": 0.742,
+   "Acc_lo": 0.581,
+   "Acc_hi": 0.871,
+   "AUC": 0.732,
+   "Brier": 0.195,
+   "LogLoss": 0.575
+  },
+  {
+   "Setting": "Innings-break",
+   "Model": "Gradient Boosting",
+   "Accuracy": 0.71,
+   "Acc_lo": 0.548,
+   "Acc_hi": 0.871,
+   "AUC": 0.627,
+   "Brier": 0.238,
+   "LogLoss": 0.755
+  },
+  {
+   "Setting": "Post-toss",
+   "Model": "Higher Elo wins (rule)",
+   "Accuracy": 0.742,
+   "Acc_lo": 0.581,
+   "Acc_hi": 0.871,
+   "AUC": 0.846,
+   "Brier": 0.198,
+   "LogLoss": 0.583
+  }
+ ],
+ "always_chase_acc": 0.6129032258064516,
+ "loto": [
+  {
+   "Setting": "Post-toss",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Majority class",
+   "n": 18,
+   "Accuracy": 0.556,
+   "Acc_lo": 0.337,
+   "Acc_hi": 0.754,
+   "Brier": 0.266,
+   "LogLoss": 0.728
+  },
+  {
+   "Setting": "Post-toss",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Logistic (L2)",
+   "n": 18,
+   "Accuracy": 0.722,
+   "Acc_lo": 0.491,
+   "Acc_hi": 0.875,
+   "Brier": 0.174,
+   "LogLoss": 0.512
+  },
+  {
+   "Setting": "Post-toss",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Random Forest",
+   "n": 18,
+   "Accuracy": 0.778,
+   "Acc_lo": 0.548,
+   "Acc_hi": 0.91,
+   "Brier": 0.217,
+   "LogLoss": 0.634
+  },
+  {
+   "Setting": "Post-toss",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Gradient Boosting",
+   "n": 18,
+   "Accuracy": 0.722,
+   "Acc_lo": 0.491,
+   "Acc_hi": 0.875,
+   "Brier": 0.244,
+   "LogLoss": 0.89
+  },
+  {
+   "Setting": "Post-toss",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Majority class",
+   "n": 13,
+   "Accuracy": 0.692,
+   "Acc_lo": 0.424,
+   "Acc_hi": 0.873,
+   "Brier": 0.232,
+   "LogLoss": 0.656
+  },
+  {
+   "Setting": "Post-toss",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Logistic (L2)",
+   "n": 13,
+   "Accuracy": 0.846,
+   "Acc_lo": 0.578,
+   "Acc_hi": 0.957,
+   "Brier": 0.185,
+   "LogLoss": 0.555
+  },
+  {
+   "Setting": "Post-toss",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Random Forest",
+   "n": 13,
+   "Accuracy": 0.385,
+   "Acc_lo": 0.177,
+   "Acc_hi": 0.645,
+   "Brier": 0.234,
+   "LogLoss": 0.654
+  },
+  {
+   "Setting": "Post-toss",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Gradient Boosting",
+   "n": 13,
+   "Accuracy": 0.385,
+   "Acc_lo": 0.177,
+   "Acc_hi": 0.645,
+   "Brier": 0.47,
+   "LogLoss": 1.284
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Majority class",
+   "n": 18,
+   "Accuracy": 0.556,
+   "Acc_lo": 0.337,
+   "Acc_hi": 0.754,
+   "Brier": 0.266,
+   "LogLoss": 0.728
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Logistic (L2)",
+   "n": 18,
+   "Accuracy": 0.778,
+   "Acc_lo": 0.548,
+   "Acc_hi": 0.91,
+   "Brier": 0.188,
+   "LogLoss": 0.56
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Random Forest",
+   "n": 18,
+   "Accuracy": 0.667,
+   "Acc_lo": 0.437,
+   "Acc_hi": 0.837,
+   "Brier": 0.217,
+   "LogLoss": 0.631
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2022",
+   "Test": "2025",
+   "Model": "Gradient Boosting",
+   "n": 18,
+   "Accuracy": 0.722,
+   "Acc_lo": 0.491,
+   "Acc_hi": 0.875,
+   "Brier": 0.246,
+   "LogLoss": 0.981
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Majority class",
+   "n": 13,
+   "Accuracy": 0.692,
+   "Acc_lo": 0.424,
+   "Acc_hi": 0.873,
+   "Brier": 0.232,
+   "LogLoss": 0.656
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Logistic (L2)",
+   "n": 13,
+   "Accuracy": 0.846,
+   "Acc_lo": 0.578,
+   "Acc_hi": 0.957,
+   "Brier": 0.155,
+   "LogLoss": 0.487
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Random Forest",
+   "n": 13,
+   "Accuracy": 0.615,
+   "Acc_lo": 0.355,
+   "Acc_hi": 0.823,
+   "Brier": 0.202,
+   "LogLoss": 0.594
+  },
+  {
+   "Setting": "Innings-break",
+   "Train": "2025",
+   "Test": "2022",
+   "Model": "Gradient Boosting",
+   "n": 13,
+   "Accuracy": 0.538,
+   "Acc_lo": 0.291,
+   "Acc_hi": 0.768,
+   "Brier": 0.31,
+   "LogLoss": 0.888
+  }
+ ],
+ "perm_pre": {
+  "obs": 0.7096774193548387,
+  "p": 0.053156146179401995,
+  "null_mean": 0.5621505376344086
+ },
+ "perm_brk": {
+  "obs": 0.7096774193548387,
+  "p": 0.053156146179401995,
+  "null_mean": 0.5444086021505377
+ },
+ "brk_coef": {
+  "elo_diff": 1.0955756584819336,
+  "v_Dubai": -0.01101973545317559,
+  "v_Abu Dhabi": 0.19000264314230103,
+  "v_Sharjah": -0.2319915482073569,
+  "ko": -0.18625925601607157,
+  "score1": 0.7317766051881021,
+  "pp1": -0.1014917741615646,
+  "e1": -0.29317653490852313
+ },
+ "pre_coef": {
+  "elo_diff": 1.2049882073023672,
+  "v_Dubai": 0.0003577727394173815,
+  "v_Abu Dhabi": 0.19425820210127853,
+  "v_Sharjah": -0.2540772952999464,
+  "ko": -0.12515210426501328
+ },
+ "elo_flat_acc": 0.7419354838709677,
+ "mcmc": {
+  "acc": [
+   0.30856666666666666,
+   0.3163,
+   0.3142,
+   0.31256666666666666
+  ],
+  "rhat": {
+   "mu": 1.0003569815742772,
+   "log_tau": 1.0009043301863008,
+   "z_Dubai": 1.000536330876159,
+   "z_AbuDhabi": 1.0005832423226493,
+   "z_Sharjah": 1.0003905176333876,
+   "b_elo": 1.0001771488464368
+  },
+  "ess": {
+   "mu": 5840.016000594944,
+   "log_tau": 1161.5958537974886,
+   "z_Dubai": 1995.4212548600067,
+   "z_AbuDhabi": 2826.255373933972,
+   "z_Sharjah": 3799.9174504411762,
+   "b_elo": 4778.670282507886
+  }
+ },
+ "bayes": {
+  "mu_chase": [
+   0.6669474210841938,
+   0.39023157489930677,
+   0.8698412603959795
+  ],
+  "tau": [
+   0.5945542735469634,
+   0.024462044233419827,
+   1.7376800308417844
+  ],
+  "b": [
+   1.6675935254762926,
+   0.638900408796256,
+   2.8450495543523107
+  ],
+  "p_b_neg": 0.00045454545454545455,
+  "p_b_pos": 0.9995454545454545,
+  "venues": {
+   "Dubai": {
+    "mean": 0.6848052153289222,
+    "lo": 0.47413787270285357,
+    "hi": 0.8607993055794505,
+    "p_gt_half": 0.9591818181818181
+   },
+   "Abu Dhabi": {
+    "mean": 0.6298118881014718,
+    "lo": 0.3104973846569712,
+    "hi": 0.860097730987597,
+    "p_gt_half": 0.8241363636363637
+   },
+   "Sharjah": {
+    "mean": 0.7127143621238878,
+    "lo": 0.43662709798817523,
+    "hi": 0.9397761370947713,
+    "p_gt_half": 0.9404090909090909
+   }
+  },
+  "overall_p_chase_gt_half": 0.9083636363636364
+ }
+}

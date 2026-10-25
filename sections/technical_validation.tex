@@ -1,0 +1,7 @@
+\section{Technical Validation}
+\label{sec:validation}
+We wrote tests for things that cannot be true. A winner must have the higher score, powerplay runs cannot exceed the innings total, and the parts of the extras must add up to the whole. Table~\ref{tab:checks} lists the tests, and all of them passed. The level match is picked up as a Super Over case and not as an error. The tests found the swapped dates. The toss error showed up because the toss did not agree with who batted first, and we then confirmed the correct toss winner in match reports.
+
+\input{tables/checks}
+
+These tests show that the numbers agree with each other. They do not prove that every number is right. A user who needs certainty about one value should check the official scorecard. The pitch and weather notes are the least certain part of the data, which is why each one has a source tag.
