@@ -1,4 +1,4 @@
-# AsiaCupT20 dataset paper (IEEE conference format, LaTeX)
+# AsiaCupT20 dataset paper
 
 This folder holds the full paper as LaTeX source, one file for each section. The paper is **6 pages** in the official `IEEEtran` conference format, which is the maximum allowed. `main.pdf` is a compiled copy so you can see the layout.
 
